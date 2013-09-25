@@ -1,0 +1,60 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+.container{
+	margin-top: 5px;
+}
+ a {
+  list-style: none;
+ }
+
+ a:hover {
+ 	color: #000 !important;
+ 	list-style: underline !important;
+ 	background-color: white !important;
+ }
+
+.nav{
+  padding:0 auto;
+  height:50px;
+  background-color: #00AAFF;
+  color: brown;
+  font-style: bold;
+ }
+
+.well{
+  border-radius: 0 !important;
+  padding: 0 !important;	
+}
+
+.span3 {
+  border-radius: 0 !important;
+}
+
+.well .google-header{
+  background-color: #CCCCCC;
+  color: #FFF;
+  font-size: 14pt;
+  line-height: 18pt;
+  padding-left: 20px;
+}
+
+.well .body{
+	margin: 10px;
+}
+
+p.time{
+	text-align: right;
+}
